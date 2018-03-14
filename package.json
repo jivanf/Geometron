@@ -1,8 +1,8 @@
 {
-  "name": "geometron",
+  "name": "Geometron",
   "version": "1.0.0",
   "description": "An application that calculates areas and perimeters of some shapes",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
@@ -13,6 +13,6 @@
   "author": "Jivan Flores <minecraftjivan@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^1.8.2"
+    "electron": "^1.8.3"
   }
 }
