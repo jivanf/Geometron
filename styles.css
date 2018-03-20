@@ -1,15 +1,133 @@
 body {
     font-family: Lato, Arial;
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: -30px;
 }
+
+h1 {
+    text-align: center;
+    font-size: 2.9em;
+    margin-bottom: -10px;
+}
+
+.shape-h1::after {
+    content: url("images/if_home_126572.svg");
+}
+
+button {
+    width: 19.5%;
+    height: 19.5%;
+    font-size: 2em;
+    border: none;
+    margin-top: 20px;
+    font-family: Lato, Arial;
+    transition: 0.3s;
+    color: white;
+    background-color: #4caf50;
+    outline: none;
+    box-shadow: 0 2px 25px #3c8c40;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#home {
+    position: relative;
+    float: right;
+    bottom: 80px;
+}
+
+
+
+
+.page-wrap {
+    text-align: center;
+    align-content: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+/*input[type="text"] {*/
+    /*margin-top: 5px;*/
+    /*margin-bottom: 5px;*/
+    /*display:inline-block;*/
+    /**display: inline;     !* for IE7*!*/
+    /*zoom:1;              !* for IE7*!*/
+    /*vertical-align:middle;*/
+    /*margin-left:20px*/
+/*}*/
+
+/*label {*/
+    /*display:inline-block;*/
+    /**display: inline;     !* for IE7*!*/
+    /*zoom:1;              !* for IE7*!*/
+    /*float: left;*/
+    /*padding-top: 5px;*/
+    /*text-align: right;*/
+    /*width: 140px;*/
+/*}*/
+
+.header {
+    padding: 20px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*input[type="number"]{font: 15px/24px 'Muli', sans-serif; color: #333; width: 100%; box-sizing: border-box; letter-spacing: 1px;}
+*/
+
+.size-field{
+    width: 19.5%;
+    margin: auto;
+    position: relative;
+
+}
+
+/* necessary to give position: relative to parent. */
+input[type="number"] {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+input[type="number"]:focus {
+    outline: none;
+}
+
+.effect-8
+{border: 1px solid #ccc; padding: 7px 14px 9px; transition: 0.4s;}
+
+.effect-8 ~ .focus-border:before,
+.effect-8 ~ .focus-border:after{content: ""; position: absolute; top: 0; left: 0; width: 0; height: 2px; background-color: #4caf50; transition: 0.3s;}
+.effect-8 ~ .focus-border:after{top: auto; bottom: 0; left: auto; right: 0;}
+.effect-8 ~ .focus-border i:before,
+.effect-8 ~ .focus-border i:after{content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: #4caf50; transition: 0.4s;}
+.effect-8 ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0;}
+.effect-8:focus ~ .focus-border:before,
+.effect-8:focus ~ .focus-border:after{width: 100%; transition: 0.3s;}
+.effect-8:focus ~ .focus-border i:before,
+.effect-8:focus ~ .focus-border i:after{height: 100%; transition: 0.4s;}
+
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 20px;
     padding: 0;
 }
 
 li {
-    font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+    font: 200 1.5em/1.5 Helvetica, Verdana, sans-serif;
     border-bottom: 1px solid #ccc;
 }
 

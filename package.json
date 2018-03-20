@@ -14,5 +14,8 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^1.8.3"
+  },
+  "dependencies": {
+    "vex-js": "^4.1.0"
   }
 }
