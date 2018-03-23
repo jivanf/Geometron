@@ -43,6 +43,23 @@ button:hover {
     bottom: 80px;
 }
 
+.shape {
+    margin-bottom: 20px;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
 
 
 
@@ -86,7 +103,7 @@ button:hover {
 */
 
 .size-field{
-    width: 19.5%;
+    width: 90%;
     margin: auto;
     position: relative;
 
