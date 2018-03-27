@@ -5,7 +5,7 @@
 	 width="212.329px" height="197.26px" viewBox="0 0 212.329 197.26" enable-background="new 0 0 212.329 197.26"
 	 xml:space="preserve">
 <polygon fill="#FFFFFF" stroke="#000000" stroke-width="3.3643" stroke-miterlimit="10" points="48.971,186.85 13.217,76.811 
-	106.822,8.803 200.427,76.811 164.673,186.85 "/>
+	106.822,8.803 200.427,76.811 164.672,186.85 "/>
 <g>
 	<g>
 		<g>
@@ -13,7 +13,7 @@
 				<g>
 					<rect x="105.944" y="86.301" width="1.709" height="4.822"/>
 					<rect x="105.944" y="93.483" width="1.709" height="4.822"/>
-					<rect x="105.944" y="100.665" width="1.709" height="4.822"/>
+					<rect x="105.944" y="100.665" width="1.709" height="4.821"/>
 					<rect x="105.944" y="107.848" width="1.709" height="4.821"/>
 					<rect x="105.944" y="115.029" width="1.709" height="4.822"/>
 					<rect x="105.944" y="122.212" width="1.709" height="4.822"/>
@@ -22,16 +22,18 @@
 			</g>
 			<g>
 				<g>
-					<rect x="105.944" y="136.575" width="1.709" height="4.822"/>
+					<rect x="105.944" y="136.575" width="1.709" height="4.821"/>
 					<rect x="105.944" y="143.758" width="1.709" height="4.822"/>
 					<rect x="105.944" y="150.938" width="1.709" height="4.822"/>
-					<rect x="105.944" y="158.122" width="1.709" height="4.821"/>
+					<rect x="105.944" y="158.122" width="1.709" height="4.82"/>
 					<rect x="105.944" y="165.303" width="1.709" height="4.822"/>
 					<rect x="105.944" y="172.486" width="1.709" height="4.822"/>
-					<rect x="105.944" y="179.667" width="1.709" height="4.821"/>
+					<rect x="105.944" y="179.667" width="1.709" height="4.82"/>
 				</g>
 			</g>
 		</g>
 	</g>
 </g>
+<text transform="matrix(1 0 0 1 120.7026 141.3967)" font-family="'STIXGeneral-Italic'" font-size="24">a</text>
+<text transform="matrix(1 0 0 1 167.7026 35.5823)" font-family="'STIXGeneral-Italic'" font-size="24">L</text>
 </svg>
