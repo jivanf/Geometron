@@ -25,7 +25,7 @@
         <tr>
             <td>Base</td>
             <td><div class="size-field">
-                <input class="effect-8" type="number" placeholder="Placeholder Text">
+                <input id="base" class="effect-8" type="number" placeholder="Placeholder Text">
                 <span class="focus-border"> <i></i> </span>
             </div>
             </td>
@@ -33,17 +33,24 @@
         <tr>
             <td>Altura</td>
             <td><div class="size-field">
-                <input class="effect-8" type="number" placeholder="Placeholder Text">
+                <input id="height" class="effect-8" type="number" placeholder="Placeholder Text">
                 <span class="focus-border"> <i></i> </span>
             </div>
             </td>
         </tr>
-
+        <tr>
+            <td>Perímetro</td>
+            <td ><p id="perimeter-result"></p></td>
+        </tr>
+        <tr>
+            <td>Área</td>
+            <td><p id="area-result"></p></td>
+        </tr>
 
     </table>
 
     <script src="/node_modules/vex-js/dist/js/vex.combined.min.js"></script>
-    <script src="rectangle.js"></script>
+    <script src="triangle.js"></script>
 </div>
 </body>
 </html>
