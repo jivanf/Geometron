@@ -14,6 +14,12 @@ html, body {
 
 }
 
+.line {
+    border: 1px solid #ddd;
+    width: 100px;
+    margin: auto;
+}
+
 .back-arrow:active {
     transform: scale(1.2);
 }
