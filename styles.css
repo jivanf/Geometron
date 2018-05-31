@@ -31,7 +31,6 @@ html, body {
 h1 {
     text-align: center;
     font-size: 2.9em;
-    margin-bottom: -10px;
 }
 
 .shape {
@@ -73,7 +72,7 @@ th, td {
 }
 
 .header {
-    padding: 20px;
+    padding: 10px;
     background-color: #fafafa;
     border-bottom: 1px solid #ccc;
     margin-bottom: 20px;
